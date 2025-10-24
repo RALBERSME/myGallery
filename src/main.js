@@ -4,9 +4,9 @@ import { Reflector } from "three/examples/jsm/Addons.js";
 import { Easing, Tween, update as updateTween } from "tween";
 const images = [
   "watercolor.jpg",
-  "wiese.png",
+  "wiese.jpg",
   "forest.jpg",
-  "flower2.png",
+  "colors.png",
   "harbour.png",
   "flower.jpg",
 ];
