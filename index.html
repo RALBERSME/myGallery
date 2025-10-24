@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/vnd.icon" href="river.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    body {
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    a {
+      color: white;
+      text-align: center;
+      width: 100%;
+
+      font-family: "Inter", sans-serif;
+      font-weight: 100;
+
+      transition: opacity 0.5s ease-in-out;
+    }
+    #artists {
+      position: fixed;
+      font-size: 3rem;
+      top: 0;
+      margin-top: 1rem;
+    }
+    #profession {
+      position: fixed;
+      font-size: 3em;
+      color: gray;
+      top: 1rem;
+      margin-top: -1rem;
+    }
+    #nextPage {
+      position: fixed;
+      top: 0.5em;
+      font-size: 2rem;
+      color: white;
+      position: absolute;
+      text-align: center;
+      text-decoration: none;
+    }
+    #nextPage:hover {
+      color: rgb(246, 246, 180);
+    }
+  </style>
+  <body>
+    <script type="module" src="/src/main.js"></script>
+    <h1 id="artists"></h1>
+    <h2 id="profession"></h2>
+    <a
+      href="https://ralbersme.github.io/myCulture/"
+      target="_blank"
+      id="nextPage"
+      >&#10165; klicke hier für Details</a
+    >
+  </body>
+</html>
