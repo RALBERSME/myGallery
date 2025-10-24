@@ -28,7 +28,7 @@ const profession = [
 ];
 
 const webLinks = [
-  "https://ralbersme.github.io/myCulture/",
+  "https://ralbersme.github.io/myCulture/hesse.html",
   "https://ralbersme.github.io/myCulture/macke.html",
   "https://ralbersme.github.io/myCulture/kalman.html",
   "https://ralbersme.github.io/myCulture/rilke.html",
